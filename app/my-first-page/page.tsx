@@ -1,4 +1,5 @@
 import ProfileCard from "../components/ProfileCard";
+import CVEntry from "../components/CVEntry";
 
 export default function MyFisrtPage() {
   // export pour accessible end ehors, default car export principal du fichier, MyFirstPage=fonction
@@ -13,6 +14,14 @@ export default function MyFisrtPage() {
         <p>Je découvre React et children</p>
       </ProfileCard>
       <ProfileCard prenom="Yaël" domaine="marketing" />
+
+      <CVEntry
+        titre="étudiant en ingénierie industrielle (électronique)"
+        employeur="ECAM"
+        durée="2024-..."
+      >
+        <p>Veuillez remplir avec les compétences et expériences...</p>
+      </CVEntry>
     </main> // un children est présent pour Nicolas
   );
 }
