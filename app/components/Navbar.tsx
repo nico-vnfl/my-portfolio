@@ -1,23 +1,25 @@
+import Link from "next/link";
+
 export default function Navbar() {
   return (
     <nav className="bg-gray-800 text-white p-4">
-      <ul className="flex space-x-4">
+      <ul className="flex flex-col gap-4 md:flex-row">
         <li>
-          <a href="/" className="hover:text-gray-400">
+          <Link href="/" className="hover:text-gray-400">
             Home
-          </a>
+          </Link>
         </li>
 
         <li>
-          <a href="/my-first-page" className="hover:text-gray-400">
+          <Link href="/my-first-page" className="hover:text-gray-400">
             My First Page
-          </a>
+          </Link>
         </li>
 
         <li>
-          <a href="/cv" className="hover:text-gray-400">
+          <Link href="/cv" className="hover:text-gray-400">
             CV
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
