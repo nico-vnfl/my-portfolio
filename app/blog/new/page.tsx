@@ -6,12 +6,12 @@ export default function NewPostPage() {
     <main className="mx-auto w-full max-w-md p-4">
       <h1 className="mb-6 text-3xl font-bold">Nouvel article</h1>
       <form className="flex flex-col gap-4">
-        <Field label="titre" type="text" name="title" required></Field>
+        <Field label="Titre" type="text" name="title" required></Field>
 
         <label className="flex flex-col gap-2">
           <span>Contenu de l'article</span>
           <textarea
-            className="rounded border p-2"
+            className="rounded border border-slate-400 bg-white p-2 text-slate-900 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-100"
             name="content"
             rows={6}
             required

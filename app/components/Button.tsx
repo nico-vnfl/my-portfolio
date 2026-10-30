@@ -6,7 +6,7 @@ export default function Button(props: ButtonProps) {
   const { children, ...buttonProps } = props;
   return (
     <button
-      className="rounded border bg-blue-600 px-4 py-2 text-white hover:bg-blue-700"
+      className="rounded border bg-blue-900 px-4 py-2 text-white hover:bg-gray-800"
       {...buttonProps}
     >
       {children}

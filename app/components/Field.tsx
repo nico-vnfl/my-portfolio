@@ -10,7 +10,10 @@ export default function Field(props: FieldProps) {
   return (
     <label className="flex flex-col gap-2">
       <span>{label}</span>
-      <input {...inputProps} className="rounded border p-2" />
+      <input
+        {...inputProps}
+        className="rounded border border-slate-400 bg-white p-2 text-slate-900 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-100"
+      />
     </label>
   );
 } // span : entoure le texte du label; ...inputProps transmet les valeurs des attributs à input

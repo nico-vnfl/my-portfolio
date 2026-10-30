@@ -4,7 +4,11 @@ export default function CVPage() {
   return (
     <main className="p-4">
       <h1 className="mb-4 text-3xl font-bold">CV de Nicolas Vannuffel</h1>
-
+      <img
+        src="/LogoSdiv.jpg"
+        alt="logo de la SDIV"
+        className="mb-4 h-32 w-32 rounded-full object-cover"
+      />
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
         <CVEntry
           titre="étudiant en ingénierie industrielle (électronique)"
