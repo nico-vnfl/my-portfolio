@@ -12,13 +12,25 @@ export default function Navbar() {
 
         <li>
           <Link href="/my-first-page" className="hover:text-gray-400">
-            My First Page
+            My First Page (page de test)
           </Link>
         </li>
 
         <li>
           <Link href="/cv" className="hover:text-gray-400">
             CV
+          </Link>
+        </li>
+
+        <li>
+          <Link href="/login" className="hover:text-gray-400">
+            Connexion
+          </Link>
+        </li>
+
+        <li>
+          <Link href="/blog/new" className="hover:text-gray-400">
+            Nouvel article
           </Link>
         </li>
       </ul>
