@@ -9,8 +9,8 @@ type CVEntryProps = {
 
 export default function CVEntry(props: CVEntryProps) {
   return (
-    <article>
-      <h2>{props.titre}</h2>
+    <article className="rounded-lg border border-slate-300 bg-slate-100 p-4 text-slate-900">
+      <h2 className="text-xl font-bold">{props.titre}</h2>
       <p>
         {props.employeur} - {props.durée}
       </p>
