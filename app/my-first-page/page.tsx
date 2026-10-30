@@ -1,5 +1,7 @@
 import ProfileCard from "../components/ProfileCard";
 import CVEntry from "../components/CVEntry";
+import Field from "../components/Field";
+import Button from "../components/Button";
 
 export default function MyFisrtPage() {
   // export pour accessible end ehors, default car export principal du fichier, MyFirstPage=fonction
@@ -22,6 +24,16 @@ export default function MyFisrtPage() {
       >
         <p>Veuillez remplir avec les compétences et expériences...</p>
       </CVEntry>
+
+      <Field
+        label="Adresse e-mail"
+        type="email"
+        placeholder="nom@exemple.be"
+        required
+      />
+      <Field label="Mot de passe" type="password" name="password" />
+
+      <Button type="button">Se connecter</Button>
     </main> // un children est présent pour Nicolas
   );
 }
