@@ -8,8 +8,11 @@ export default function MyFisrtPage() {
     <main>
       <h1>Bonjour {prenom}</h1>
       <p>Je bosse sur le cours de {formation}</p>
-      <ProfileCard prenom="Nicolas" domaine="ingénieur industriel" />
+      <ProfileCard prenom="Nicolas" domaine="ingénieur industriel">
+        {" "}
+        <p>Je découvre React et children</p>
+      </ProfileCard>
       <ProfileCard prenom="Yaël" domaine="marketing" />
-    </main>
+    </main> // un children est présent pour Nicolas
   );
 }
