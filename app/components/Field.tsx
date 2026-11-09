@@ -12,7 +12,7 @@ export default function Field(props: FieldProps) {
       <span>{label}</span>
       <input
         {...inputProps}
-        className="rounded border border-slate-400 bg-white p-2 text-slate-900 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-100"
+        className="w-full min-w-0 rounded border border-slate-400 bg-white p-2 text-slate-900 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-100"
       />
     </label>
   );

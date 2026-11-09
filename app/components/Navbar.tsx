@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <nav className="bg-gray-800 text-white p-4">
-      <ul className="flex flex-col gap-4 md:flex-row">
+      <ul className="flex flex-col gap-4 md:flex-row md:flex-wrap">
         <li>
           <Link href="/" className="hover:text-gray-400">
             Home

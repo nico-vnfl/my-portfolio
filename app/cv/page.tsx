@@ -2,7 +2,7 @@ import CVEntry from "../components/CVEntry";
 
 export default function CVPage() {
   return (
-    <main className="p-4">
+    <main className="mx-auto w-full max-w-4xl p-4">
       <h1 className="mb-4 text-3xl font-bold">CV de Nicolas Vannuffel</h1>
       <img
         src="/LogoSdiv.jpg"

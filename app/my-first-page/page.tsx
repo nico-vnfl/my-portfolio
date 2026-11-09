@@ -8,7 +8,7 @@ export default function MyFisrtPage() {
   const prenom = "Nicolas"; // on déclare des constantes réutilisables
   const formation = "Technologies web";
   return (
-    <main>
+    <main className="mx-auto w-full max-w-4xl space-y-4 p-4">
       <h1>Bonjour {prenom}</h1>
       <p>Je bosse sur le cours de {formation}</p>
       <ProfileCard prenom="Nicolas" domaine="ingénieur industriel">

@@ -17,11 +17,13 @@ export default async function ArticlePage(props: ArticlePageProps) {
   }
 
   return (
-    <section>
-      <h1 className="text-2xl text-blue-900">Article en cours de lecture</h1>
+    <section className="mx-auto w-full max-w-4xl p-4">
+      <h1 className="mb-4 text-2xl font-bold text-blue-900 dark:text-blue-300">
+        Article en cours de lecture
+      </h1>
 
       <ArticleEntry titre={article.titre}>
-        <p>{article.contenu}</p>
+        <p className="mt-3 whitespace-pre-wrap">{article.contenu}</p>
       </ArticleEntry>
       <Link
         href={"/blog/edit/" + id}
