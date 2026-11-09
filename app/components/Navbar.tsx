@@ -29,19 +29,19 @@ export default function Navbar() {
         </li>
 
         <li>
-          <Link href="/blog/new" className="hover:text-gray-400">
+          <Link href="/blog/new_article" className="hover:text-gray-400">
             Nouvel article
           </Link>
         </li>
 
         <li>
-          <Link href="/blog/articles" className="hover:text-gray-400">
-            Article en lecture 
+          <Link href="/blog/0" className="hover:text-gray-400">
+            Article en lecture
           </Link>
         </li>
 
         <li>
-          <Link href="/blog/titles" className="hover:text-gray-400">
+          <Link href="/blog" className="hover:text-gray-400">
             Articles publiés
           </Link>
         </li>
