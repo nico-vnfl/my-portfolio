@@ -29,7 +29,7 @@ export default function Navbar() {
         </li>
 
         <li>
-          <Link href="/blog/new_article" className="hover:text-gray-400">
+          <Link href="/blog/new" className="hover:text-gray-400">
             Nouvel article
           </Link>
         </li>

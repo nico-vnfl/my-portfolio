@@ -18,7 +18,7 @@ export default async function ArticlePage(props: ArticlePageProps) {
 
   return (
     <section className="mx-auto w-full max-w-4xl p-4">
-      <h1 className="mb-4 text-2xl font-bold text-blue-900 dark:text-blue-300">
+      <h1 className="mb-4 text-3xl font-bold">
         Article en cours de lecture
       </h1>
 
