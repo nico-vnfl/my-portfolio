@@ -33,6 +33,18 @@ export default function Navbar() {
             Nouvel article
           </Link>
         </li>
+
+        <li>
+          <Link href="/blog/articles" className="hover:text-gray-400">
+            Article en lecture 
+          </Link>
+        </li>
+
+        <li>
+          <Link href="/blog/titles" className="hover:text-gray-400">
+            Articles publiés
+          </Link>
+        </li>
       </ul>
     </nav>
   );
