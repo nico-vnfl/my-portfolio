@@ -22,8 +22,8 @@ export default async function ArticlePage(props: ArticlePageProps) {
         Article en cours de lecture
       </h1>
 
-      <ArticleEntry titre={article.titre}>
-        <p className="mt-3 whitespace-pre-wrap">{article.contenu}</p>
+      <ArticleEntry title={article.title}>
+        <p className="mt-3 whitespace-pre-wrap">{article.content}</p>
       </ArticleEntry>
       <Link
         href={"/blog/edit/" + id}

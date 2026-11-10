@@ -15,7 +15,7 @@ export default async function () {
               href={"/blog/" + i}
               className="block rounded-lg border border-slate-300 bg-slate-100 p-4 text-xl font-bold text-slate-900 hover:bg-slate-200 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100 dark:hover:bg-slate-700"
             >
-              {article.titre}
+              {article.title}
             </Link>
             <form action={deleteArticle.bind(null, i)} className="mt-2">
               <Button type="submit">Supprimer</Button>

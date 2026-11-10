@@ -30,7 +30,7 @@ export default async function EditArticlePage(
         <Field
           label="Titre"
           name="titre"
-          defaultValue={article.titre}
+          defaultValue={article.title}
           required
         />
 
@@ -39,7 +39,7 @@ export default async function EditArticlePage(
 
           <textarea
             name="contenu"
-            defaultValue={article.contenu}
+            defaultValue={article.content}
             rows={8}
             required
             className="w-full rounded border border-slate-400 bg-white p-2 text-slate-900 dark:border-slate-600 dark:bg-slate-800 dark:text-slate-100"

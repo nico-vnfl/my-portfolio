@@ -1,0 +1,21 @@
+#meme a l'exam => faire avant
+services:
+  db:
+    image: postgres:18
+    ports:
+      - 5432:5432
+    volumes:
+      - postgres_data:/var/lib/postgresql
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+  adminer:
+    image: adminer
+    ports:
+      - 8080:8080
+volumes:
+  postgres_data:
+# docker system prune -a //supprime toutes les images de docker pour nettoyer le disque dur
+# docker compose config : affiche les variables 
+# docker compose up : amène tout les services -> peu importe le pc et ou on a la meme DB

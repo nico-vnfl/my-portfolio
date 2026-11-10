@@ -1,3 +1,5 @@
+// tourne sur le serveur aussi car next (cible les e commerces)
+
 import Button from "../components/Button";
 import Field from "../components/Field";
 import { getTasks } from "../lib/tasks";
@@ -10,7 +12,7 @@ export default async function () {
       <h1 className="text-2xl text-green-500">Mes tâches</h1>
       <ul className="list-disc list-inside">
         {tasks.map((tasks, i) => (
-          <li key={i}>{tasks}</li>
+          <li key={i}>{tasks.title}</li> // car structure a été changée par tasks.ts 
         ))}
       </ul>
 
